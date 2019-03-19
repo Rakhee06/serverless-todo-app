@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ServerLess Todo",
+  "main": "todos/list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rakhee Singh <singhrakhee90@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.422.0",
+    "uuid": "^3.3.2"
+  }
+}
