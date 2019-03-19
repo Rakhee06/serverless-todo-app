@@ -48,5 +48,5 @@ $ sls deploy
 
 
 ## Hosted on AWS using Lambda and S3 bucket
-[ServerLess-Todo-App](git clone git@github.com:Rakhee06/serverless-todo-app.git)
+[ServerLess-Todo-App](http://spa-todo-app-client.s3-website-us-east-1.amazonaws.com)
     
