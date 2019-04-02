@@ -46,11 +46,11 @@ $ npm run build
 - `npm run build` generates static pages in `./build` directory
 - Login into AWS Console and click on `CloudFormation` on the home page or can also be searched by typing in the search bar
 - Click on `Design Template`
-- Use `cloudformation-script-to-deploy-static-website.yml` or `cloudformation-template-deploy-website.json` any one of them and paste it in the appropriate tabs. (Choose `JSON` or `YAML`)
+- Use `cloudformation-script-to-deploy-static-website.yml` or `cloudformation-template-deploy-website.json` , any one of them and paste it in the appropriate tabs (Choose `JSON` or `YAML`)
 - Click on `create stack` (`cloud icon with up arrow`)
 - Give the stack name, continue clicking next until hit `Create` button
-- This takes few minutes to deploy, say 15 mins
-- Go to home page and search for `S3`
+- This takes a while to create the stack, around 15 mins
+- After successfull completion, go to home page and search for `S3`
 - The newly S3 bucket would be created with `public` as Access parameter
 - Copy the name of the bucket and run the below command from application folder which contains `build` directory
 ```$xslt
